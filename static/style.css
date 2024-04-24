@@ -1,11 +1,11 @@
 body {
-    background-color: #ffffff;
-    color: #212529;
+    background-color: #42d12c4f;
+    color: #4684c1a1;
     font-size: 2rem;
-    font-weight: 400;
-    line-height: 1.5;
-    margin: 0;
-    text-align: left;
+    font-weight: 500;
+    line-height: .5;
+    margin: 2;
+    text-align: center;
 }
 
 .container {
@@ -14,25 +14,26 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
-    width: 90%;
+    width: 98%;
 }
 
 
 button, input[type="submit"] {
-    background-color: #5aabf1;
+    background-color: #fae2ff;
     border: 1px solid transparent;
     border-radius: 0.25rem;
-    font-size: 0.95rem;
+    font-size: 1.25rem;
     font-weight: 600;
-    line-height: 1.5;
-    padding: 0.375rem 0.75rem;
+    line-height: 1.25;
+    padding: 1.5rem 1.5rem;
     text-align: center;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     vertical-align: middle;
 }
 
+
 button, input[type="submit"]:hover:enabled{
-	background-color: #00FFFF;
+	background-color: #1ff249;
 }
 
 input[type="text"] {
@@ -43,7 +44,7 @@ input[type="text"] {
 }
 
 input[type="text"]:hover, input[type="number"]:hover {
-    background-color: #f5f5f5;
+    background-color: #fae2ff;
     transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
 }
 
@@ -56,16 +57,16 @@ table {
 table th 
 {
 		background-color: #E8F1FF;
-		padding: 0.75rem;
+		padding: 0.25rem;
     vertical-align: middle;
 }
 
 table td{
-	background-color: #BFD4F6;
+	background-color: #a35bc7d8;
 }
 
 td.footer{
-	background-color:#eeeeee;
+	background-color:#fae2ff;
 	font-size: .75rem;
 	padding: 0.75rem;
 	font-family:Roboto,arial,sans-serif;
